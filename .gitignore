@@ -1,0 +1,32 @@
+
+# Dependencies
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Production builds
+dist/
+client/dist/
+server/dist/
+
+# Environment secrets
+.env
+.env.*
+!.env.example
+server/.env
+client/.env
+
+# Logs
+*.log
+npm-debug.log*
+
+# Local files
+*.local
+
+# Editor files
+.vscode/
+.idea/
+.DS_Store
+
+# Unused nested Vite starter
+/client/
